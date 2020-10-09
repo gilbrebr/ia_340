@@ -4,42 +4,62 @@
     
     <head> 
         <title> lec5 </title>
+        
+        <style>
+                div.div_style {
+                    background color: black;
+                    color: white; 
+                }
+                span.spanstyle{
+                    color:red;
+                }
+            
+        </style>
+        
     </head>
     
     <body>
         
-        <h1> Heading 1 </h1>
+        <div id = "first div" classw = div_style>
         
-        <p title = "This is a p tag"> This is a paragraph </p>
+            <h1> Heading 1 </h1>
+
+            <p title = "This is a p tag"> This is a paragraph </p>
+
+            <p id = "id_p2"> This is another paragraph </p>
+
+            <table border = "2">
+                <tr>
+                    <td> first name </td>
+                    <td> last name </td>
+                </tr>
+                <tr>
+                    <td> Byron </td>
+                    <td> Gilbreath </td>
+                </tr>
+            </table>
         
-        <p id = "id_p2"> This is another paragraph </p>
-        
-        <table border = "2">
-            <tr>
-                <td> first name </td>
-                <td> last name </td>
-            </tr>
-            <tr>
-                <td> Byron </td>
-                <td> Gilbreath </td>
-            </tr>
-        </table>
-        
-        <h2> Heading 2 </h2>
-        
-        <a href="https://www.jmu.edu/"> JMU Website </a>
-        
-        <img src="https://www.jmu.edu/_images/_story-rotator/full-width-images/quad-sunny-blue-sky.jpg", alt = "JMU Logo">
-        
-        <ul>
-            <li> Coffee </li>
-            <li> Tea </li>
-            <ol>
-                <li> Black tea </li>
-                <li> Green tea </li>
-            </ol>
-            <li> Milk </li>
-        </ul>
+        </div>
+            
+        <div id = "second div">
+
+            <h2> Heading <span class = span_style>2 </span> </h2>
+
+            <a href="https://www.jmu.edu/"> JMU Website </a>
+
+            <img src="https://www.jmu.edu/_images/_story-rotator/full-width-images/quad-sunny-blue-sky.jpg", alt = "JMU Logo">
+
+            <ul>
+                <li> Coffee </li>
+                <li> Tea </li>
+                <ol>
+                    <li> Black tea </li>
+                    <li> Green tea </li>
+                </ol>
+                <li> Milk </li>
+            </ul>
+
+        </div>
     </body>
     
 </html>
